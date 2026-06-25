@@ -76,15 +76,18 @@ Medical_XAI_Project/
 └── train.py                    # Multi-epoch training loop engine
 
 💻 Local Installation & Setup
+
 1. Initialize Runtime Environment
 PowerShell
 git clone [https://github.com/ArshSidhu540/Medical_XAI_Project.git](https://github.com/ArshSidhu540/Medical_XAI_Project.git)
 cd Medical_XAI_Project
 python -m venv .venv
 .venv\Scripts\Activate.ps1
+
 2. Ingest Dependencies
 PowerShell
 pip install torch torchvision opencv-python streamlit numpy Pillow scikit-learn plotly matplotlib
+
 3. Pipeline Run Sequence
 PowerShell
 # 1. Train and fit the baseline transfer learning model weights
@@ -101,29 +104,3 @@ Developed as a Final Year Major Project in Computer Science & Engineering.
 
 
 ---
-
-### Step 2: Push Your Code to GitHub
-
-Open your terminal in VS Code and run these quick commands to send all your brilliant advancements directly up to your profile:
-
-```powershell
-# Stage the modified files
-git add .
-
-# Commit your final engineering additions
-git commit -m "Feature: Integrated multi-modal data fusion, privacy gateway, and clinical reporting"
-
-# Push to your remote repository
-git push
-You are officially ready! 🎓
-You have taken this project through an exceptional evolution:
-
-Phase 1 & 2: Handled custom data engineering, augmentation, and normalization.
-
-Phase 3: Engineered a transfer learning head on a deep residual network.
-
-Phase 4: Built custom forward/backward tensor hooks for Explainable AI.
-
-Phase 5: Designed a complete, interactive, multi-tab analytics UI dashboard.
-
-Advancements: Implemented computer vision localization, post-training parameters quantization, data privacy barriers, tabular metadata fusion, and dynamic text report creation.
